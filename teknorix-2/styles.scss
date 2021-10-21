@@ -1,0 +1,204 @@
+@import "./global.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.work-policy {
+  border: 1px solid $color5;
+  margin-bottom: 100px;
+}
+
+.jules {
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 50px;
+}
+
+th {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+.work-info li:first-child {
+  color: $color1;
+  font-size: $fontsize1;
+  padding-bottom: 20px;
+}
+
+.work-info li:not(:first-child) {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.work-info li:nth-child(2) {
+  color: $color2;
+  font-size: $fontsize2;
+}
+
+.work-info li:nth-child(3),
+li:nth-child(4),
+li:nth-child(5) {
+  color: $color3;
+  font-size: $fontsize2;
+  font-weight: 500;
+}
+
+.work-info li:nth-child(6) {
+  background-color: $color6;
+  font-weight: bold;
+  color: $color7;
+}
+
+.default-header {
+  color: $color4;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.employees {
+  padding-right: 70px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.employees h5 {
+  color: $color3;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.employees p {
+  color: $color1;
+  font-size: 14px;
+}
+
+thead {
+  background-color: $color8;
+  color: $color9;
+  text-transform: uppercase;
+}
+
+.form-check-label {
+  color: $color7;
+}
+
+.form-check-label-1 {
+  color: $color9;
+}
+
+td {
+  color: $color10;
+}
+
+.trash-icon-2,
+.remove {
+  color: $color12;
+}
+
+.nav-list {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: $color11;
+}
+
+.jules-header {
+  margin-left: 20px;
+}
+
+nav {
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+  margin-bottom: 50px;
+
+  /* the rest of your styling */
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.nav-info {
+  color: #3a3c44;
+  font-size: 30px;
+}
+
+.btn-outline-primary {
+  background-color: $color6;
+  color: $color7;
+  font-weight: 500;
+}
+
+.btn-outline-secondary {
+  color: $color3;
+}
+
+.rounded-pill {
+  border-radius: 0rem !important;
+}
+
+.ms-n3 {
+  margin-right: 15px;
+}
+
+.input-group {
+  margin-left: 20px;
+}
+
+.teams {
+  width: 80px;
+}
+@media screen and (max-width: 992px) {
+  .nav-list {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .work-info {
+    text-align: center;
+  }
+
+  .default-header {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+.user {
+  color: $color7;
+  padding-left: 20px;
+}
+
+.fa-chevron-left {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 753px) {
+  .policy-buttons {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .employees {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.button {
+  box-shadow: $box-shadow1;
+}
